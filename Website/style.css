@@ -1,7 +1,8 @@
 .responsiveImg {
     width: 100%;
-    max-width: 600px;
-    height: auto;
+    max-width: 400px;
+    height: 100%;
+    max-height: 400px; /*indsat for at maximere højden*/
     }
 .imgContainer {
     display: flex;
@@ -70,3 +71,17 @@ p {
     padding-bottom: 2%;
     text-align: center;
 }
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    background-color: #f1f1f1;
+    transition: 0.5s;
+}
+footer:hover {
+    opacity: 1; 
+ }  
