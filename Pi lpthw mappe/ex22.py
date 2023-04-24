@@ -1,1 +1,0 @@
-# KOMMER IKKE TIL AT SKE!!
